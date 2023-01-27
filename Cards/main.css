@@ -1,0 +1,92 @@
+body {
+    background-color: lightgray;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* Card components */
+
+.card {
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.thumbnail {
+    width: 320px;
+    height: 320px;
+    /* background-image: url(https://i.pinimg.com/564x/3c/70/5e/3c705e782e815a616a6abe8d44b512d6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+
+.thumbnail__img {
+    background-image: url(https://i.pinimg.com/564x/3c/70/5e/3c705e782e815a616a6abe8d44b512d6.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 12px 18px;
+    text-align: center;
+}
+
+.content__title {
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+
+.content__badge {
+    background-color: #fff4df;
+    color: #e6b356;
+    display: inline-block;
+    padding: 4px 16px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.content__section-title {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: gray;
+}
+
+ul.content__projects {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 6px;
+    text-align: left;
+    font-size: 0px;
+}
+
+.project {
+    background-color: lightgray;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 16px;
+}
+
+/* 
+.project:last-child {
+    margin-right: 0px;
+} */
+
+.project:first-child{
+    margin-bottom: 4px;
+}
+
+
+.project:not(:last-child) {
+    margin-right: 4px;
+}
