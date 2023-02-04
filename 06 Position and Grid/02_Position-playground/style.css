@@ -1,0 +1,31 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.first {
+  background-color: lightblue;
+}
+.second {
+  background-color: lightsalmon;
+}
+
+.viewport {
+  height: 50vh;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  display: block;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card img {
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+ul {
+  display: inline-block;
+}
+li {
+  list-style: none;
+}
+a {
+  border-radius: 50%;
+}
+
+.first:hover {
+  background-image: url(./hover1.png);
+}
