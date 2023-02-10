@@ -1,0 +1,62 @@
+body {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: hsl(200deg 20% 97%);
+  display: flex;
+  padding: 44px;
+  width: 1200px;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* section {
+  width: 50%;
+} */
+
+section p {
+  width: 46%;
+}
+
+.content_sub_title {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+h1 {
+  font-size: 32px;
+}
+
+.content {
+  margin-top: 70px;
+}
+
+.buttons {
+  margin-top: 32px;
+}
+
+.sales-btn {
+  color: white;
+  background-color: hsl(244deg 100% 72%);
+  border: none;
+  border-radius: 3px;
+  padding: 12px 18px 12px 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.learn-btn {
+  border: 1px solid black;
+  color: black;
+  padding: 12px 18px 12px 18px;
+  border-radius: 3px;
+  cursor: pointer;
+}
