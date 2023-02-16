@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@200;500&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  background-color: #47bafe;
+  color: white;
+  min-height: 100vh;
+  padding: 100px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.blog-articles {
+  display: flex;
+  align-items: center;
+}
+
+.blog-articles > article {
+  margin: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 0px black;
+  border-radius: 6px;
+}
+
+.img-wrapper img {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 10px;
+}
+
+.content-title {
+  color: #ff8c00;
+  margin-top: 0;
+}
+
+.content-info {
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.content-text {
+  color: gray;
+}
+
+.content-info p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.content-info p img {
+  margin-right: 6px;
+}
+
+.content-info-calendar {
+  margin-right: 15px;
+}
+
+.button {
+  color: #ff8c00;
+  border: none;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button i {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.read-more {
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-transform: uppercase;
+  padding: 12px 18px;
+  margin-left: calc(100% - 160px);
+  cursor: pointer;
+  margin-top: 50px;
+}
