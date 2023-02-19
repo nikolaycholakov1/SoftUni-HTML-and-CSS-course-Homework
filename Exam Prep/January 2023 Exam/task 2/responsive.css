@@ -1,0 +1,57 @@
+@media (max-width: 600px) or (min-width: 1000px) {
+  /* Header */
+  .home-left,
+  .home-right {
+    display: none;
+  }
+  .home-container01 {
+    display: none;
+  }
+
+  .home-container03 {
+    align-items: center;
+  }
+
+  .home-hero1 {
+    flex-direction: column;
+  }
+
+  .section-container {
+    flex-direction: column;
+  }
+
+  /* Main section 1 */
+  .category-card-image {
+    width: 260px;
+    height: 260px;
+  }
+
+  /* Main secetion 2 */
+  .section-container .home-btn {
+    margin-bottom: 30px;
+  }
+
+  .home-container08 {
+    justify-content: space-evenly;
+  }
+
+  .home-image6,
+  .home-text30 {
+    width: 100%;
+  }
+
+  .home-text29 {
+    margin: 32px 0 16px 0;
+  }
+
+  /* Footer */
+  .home-links-container,
+  .home-footer1 {
+    display: block;
+  }
+  .home-text38,
+  .home-text45,
+  .home-text51 {
+    margin-top: 44px;
+  }
+}

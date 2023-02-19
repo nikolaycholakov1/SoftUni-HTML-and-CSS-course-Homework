@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --clr-btn-bg: #370511;
+  --clr-btn-border: #c0b0b4;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: url(images/landing-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+main {
+  padding: 60px 0px;
+  /* margin: 0 auto; */
+  /* background-color: white; */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* buttons */
+
+.button-primary {
+  background-color: var(--clr-btn-bg);
+  border: none;
+  border-radius: 14px;
+  color: white;
+  padding: 2px 18px;
+}
+
+.discover {
+  border: 1px solid var(--clr-btn-border);
+  border-radius: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: white;
+}
+
+/* Header */
+
+.header {
+  width: 70%;
+  padding: 14px 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .links {
+  display: flex;
+  gap: 70px;
+}
+
+.header .links .link a {
+  color: black;
+}
+
+/* Hero section */
+
+.hero {
+  width: 70%;
+  padding: 130px 0px;
+  margin: 0 auto;
+}
+
+.hero .hero-title {
+  margin-bottom: 12px;
+  font-size: 60px;
+}
+
+.hero .hero-subtitle {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.hero .description {
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+/* cards section */
+
+.main-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: -30px;
+}
+
+.main-subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #92989c;
+}
+
+.cards-section {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.card img {
+  width: 450px;
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card .content {
+  flex-direction: column;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.card .content .city {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card .content .info {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer .footer-links a {
+  color: rgb(145, 140, 140);
+}
+
+footer .footer-links .footer-link {
+  margin-bottom: 10px;
+}
+
+footer .footer-links .footer-link i {
+  margin-right: 22px;
+  color: white;
+}
